@@ -1,0 +1,239 @@
+<!DOCTYPE html>  
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Adult videos and content. Age-restricted website.">
+
+  <meta name="robots" content="noindex, nofollow">
+
+  <title>Adult Content Website</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      background-color: #f4f4f4;
+
+      margin: 0;
+
+      padding: 0;
+
+    }
+
+    header {
+
+      background-color: #333;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 10px;
+
+    }
+
+    nav {
+
+      background-color: #444;
+
+      overflow: hidden;
+
+    }
+
+    nav a {
+color: white;
+
+      padding: 14px 20px;
+
+      text-decoration: none;
+
+      float: left;
+
+    }
+
+    nav a:hover {
+
+      background-color: #ddd;
+
+      color: black;
+
+    }
+
+    .container {
+
+      width: 80%;
+
+      margin: 20px auto;
+
+    }
+
+    .video-grid {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+      gap: 20px;
+
+    }
+
+    .video-box {
+
+      background-color: #fff;
+
+      border-radius: 10px;
+
+      overflow: hidden;
+
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+      cursor: pointer;
+}
+
+    iframe {
+
+      width: 100%;
+
+      height: 200px;
+
+    }
+
+    footer {
+
+      text-align: center;
+
+      background-color: #333;
+
+      color: white;
+
+      padding: 10px;
+
+      position: fixed;
+
+      bottom: 0;
+
+      width: 100%;
+
+    }
+
+    .video-box h3 {
+
+      padding: 10px;
+
+      background-color: #f4f4f4;
+
+      margin: 0;
+
+      text-align: center;
+
+    }
+
+    .selected-video {
+
+      margin-bottom: 30px;
+
+    }
+
+  <div class="container">
+
+    <h2>Featured Videos</h2>
+
+    <!-- Video Grid Section -->
+
+    <div class="video-grid">
+
+      <!-- First Video -->
+
+      <div class="video-box" onclick="window.location='?id=dQw4w9WgXcQ&title=First+Video'">
+
+        <h3>First Video</h3>
+
+        <iframe src="https://xhamster43.desi/videos/tight-pussy-desi-bhabhi-in-saree-fucked-hard-by-devar-in-hindi-audio-xhCoxuY?utm_source=ext_shared&utm_medium=referral&utm_campaign=link" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+
+      <!-- Second Video -->
+
+      <div class="video-box" onclick="window.location='?id=dQw4w9WgXcQ&title=Second+Video'">
+
+        <h3>Second Video</h3>
+
+        <iframe src="https://xhamster43.desi/videos/sexy-madam-new-web-series-zoya-rathore-full-uncut-threesome-xhDmCuZ?utm_source=ext_shared&utm_medium=referral&utm_campaign=link" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+
+      <!-- Third Video -->
+
+      <div class="video-box" onclick="window.location='?id=dQw4w9WgXcQ&title=Third+Video'"> 
+
+        <h3>Third Video</h3>
+
+        <iframe src="https://xhamster43.desi/videos/vixenplus-gorgeous-petite-xxlayna-craves-antons-huge-bbc-xh2Fa0f?utm_source=ext_shared&utm_medium=referral&utm_campaign=link" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+
+      <!-- Fourth Video -->
+
+      <div class="video-box" onclick="window.location='?id=dQw4w9WgXcQ&title=Fourth+Video'">
+
+        <h3>Fourth Video</h3>
+
+        <iframe src="https://xhamster43.desi/videos/sexplosive-reunition-of-big-chested-dark-haired-and-her-lengthy-lost-buddy-powerful-oral-action-in-total-hd-xhg0B62?utm_source=ext_shared&utm_medium=referral&utm_campaign=link" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+ </div>
+
+    <!-- Selected Video Section (This will be populated after page reload based on URL) -->
+
+    
+      <iframe id="video-frame" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+
+  <footer>
+
+    <p>&copy; 2025 Adult Content Website | All Rights Reserved</p>
+
+  </footer>
+
+  <!-- JavaScript to Load Video Dynamically -->
+
+  <script>
+
+    // Get the video ID and title from the URL parameters
+
+    const urlParscriptams = new URLSearchParams(window.location.search);
+
+    const videoId = urlParams.get('id');
+
+    const videoTitle = urlParams.get('title');
+
+    // If a video ID is found, load the video
+
+    if (videoId) {
+
+      document.getElementById('video-title').textContent = videoTitle;
+
+      document.getElementById('video-frame').src = "https://www.youtube.com/embed/" + videoId;
+
+    }
+
+  </script>
+
+</body>
+
+</html>
+
+ 
